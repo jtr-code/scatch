@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="grid border border-red-600">
+    <div className="grid">
       <form className="flex flex-col justify-center min-w-96 gap-4  min-h-screen">
         <h1 className="text-2xl font-medium ">Login your account</h1>
         <input

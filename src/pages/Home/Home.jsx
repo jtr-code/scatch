@@ -3,9 +3,9 @@ import Register from "../../components/Register";
 
 const Home = () => {
   return (
-    <main className="flex justify-around items-center px-16">
+    <main className="flex justify-around flex-wrap items-center px-16">
       <Register />
-      <article class="w-10 h-10 bg-blue-500 text-white rounded-full flex justify-center items-center">
+      <article className="w-10 h-10 bg-blue-500 text-white rounded-full flex justify-center items-center">
         <p>or</p>
       </article>
       <Login />
