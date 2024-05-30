@@ -2,8 +2,8 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="grid">
-      <form className="flex flex-col justify-center min-w-96 gap-4">
+    <div className="grid max-w-full">
+      <form className="flex flex-col justify-center  gap-4 ">
         <h1 className="text-2xl font-medium ">Login your account</h1>
         <input
           type="email"

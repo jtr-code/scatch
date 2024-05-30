@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <div className="grid justify-center bg-slate-200 relative">
       <blockquote className="absolute top-20 -left-4 font-medium">Scatch</blockquote>
-      <form className="flex flex-col justify-center min-w-96 gap-4 min-h-screen px-4">
+      <form className="flex flex-col justify-center lg:min-w-96 md:min-w-80 gap-4 min-h-fit px-4">
         <h1 className="text-2xl font-medium ">
           welcome to <span className="text-blue-500 font-bold text-3xl">Scatch</span>
         </h1>
