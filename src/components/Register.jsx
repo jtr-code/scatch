@@ -2,9 +2,9 @@ import React from "react";
 
 const Register = () => {
   return (
-    <div className="grid justify-center bg-slate-200 relative">
-      <blockquote className="absolute top-20 -left-4 font-medium">Scatch</blockquote>
-      <form className="flex flex-col justify-center lg:min-w-96 md:min-w-80 gap-4 min-h-fit px-4">
+    <div className="grid  bg-slate-200 relative place-items-center min-w-full">
+      <blockquote className="absolute top-20 -left-4 text-lg  font-bold">Scatch</blockquote>
+      <form className="flex flex-col justify-center sm:w-[80%] w-[90%] gap-4 min-h-screen">
         <h1 className="text-2xl font-medium ">
           welcome to <span className="text-blue-500 font-bold text-3xl">Scatch</span>
         </h1>
